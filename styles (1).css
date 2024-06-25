@@ -1,0 +1,52 @@
+body{
+    background-image:url("https://t3.ftcdn.net/jpg/05/70/60/74/360_F_570607483_xwyvxx2liLMmjwTDKULTh7LTsOmv6Umt.jpg");
+    background-repeat:repeat-x;
+}
+
+.cool td{
+    border-style:solid;
+    padding:2px;
+    border-color:black black black black;
+}
+
+.cool tr:nth-child(odd){
+    background-color:green;
+}
+
+.cool tr:nth-child(even){
+    background-color:yellow;
+}
+
+.cool{
+    border:1px;
+    border-style: double;
+    border-color:black red yellow green;
+    padding: 10px ;
+
+}
+
+a.button{
+    background-color: goldenrod;
+    padding:10px;
+    border-color:black grey grey black;
+    border-style: solid;
+    border-width:2px;
+    object-position:left;
+}
+
+a.button:hover{
+    background-color:darkgoldenrod;
+    border-color:grey black black grey;
+}
+
+.evilbunny{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+#section2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
